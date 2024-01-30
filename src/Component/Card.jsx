@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from './Button';
-import menImage from '../assets/men.avif';
 export default function Card(props) {
   return (
     <>

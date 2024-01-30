@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { projectData } from './ProjectData'
-
 export default function Button(props) {
   return (
     <>                         
