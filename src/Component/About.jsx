@@ -22,7 +22,7 @@ const aboutData = [
     export default function About() {
       return (
         <>
-    <div className="bg-[#F8FAE5] text-center h-screen">
+    <div className="bg-[#F8FAE5] text-center md:h-screen">
       <div className="w-[90%] m-auto py-10 font-bold">
         <div className="mb-8">
           <p className="text-[#ca0a0a] text-lg">

@@ -5,12 +5,14 @@ import { iconList } from './IconListData';
 
 const Icon = () => {
   return (
-    <div className="my-4 flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center items-center">
       {iconList.map((item, index) => (
-        <div className="mx-4" key={index}>
-          <Link to={item.link}>
-            <div className={`m-auto cursor-pointer ${item.className}`}>{item.icon}</div>
-            <div className="text-center text-[16px] font-bold mt-2">{item.name}</div>
+        <div className="text-6xl font-bold text-center mx-4" key={index}>
+          <Link to={item.link} className="flex flex-col items-center">
+            <div className={`m-auto cursor-pointer ${item.className}  p-3 rounded-lg transition duration-300 hover:bg-gray-300`}>
+              {item.icon}
+            </div>
+            <div className="text-center md:text-2xl text-xl font-bold">{item.name}</div>
           </Link>
         </div>
       ))}
@@ -41,7 +43,7 @@ const Contact = () => {
             Message: <textarea placeholder="Enter your message" className="border p-2 rounded-md w-full bg-transparent"></textarea>
           </label>
           <div className="button">
-          <Button btnName = {'SUBMIT'} link={'/About'}/>
+            <Button btnName={'SUBMIT'} link={'/About'} />
           </div>
         </div>
       </div>
