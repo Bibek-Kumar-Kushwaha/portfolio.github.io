@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Bibek-Kumar-Kushwaha.github.io/portfolio.github.io/",
+  "homepage": "https://bibek-kumar-kushwaha.github.io/portfolio.github.io/",
+ 
 
   "scripts": {
     "dev": "vite",
