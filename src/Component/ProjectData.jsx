@@ -10,7 +10,7 @@ export const projectData = [
       imageUrl: ageCalculator,
       description: 'This project allows users to input their birthdate, and it calculates and displays their current age. It utilizes HTML for the user interface, CSS for styling, and JavaScript for the logic behind calculating the age based on the input.',
       altMessage: 'Alt text for accessibility.',
-      link: 'https://bibekkumarkushwaha.com.np/age_calculator1.htm',
+      link: 'https://bibekkumarkushwaha.com.np/age_calculator1.html',
     },
     {
       id: 2,
@@ -39,6 +39,14 @@ export const projectData = [
     {
       id: 5,
       title: 'Daraz Clone',
+      imageUrl: DarazClone,
+      description: 'This project is a clone of Daraz, an online marketplace. It likely involves HTML for the structure, CSS for styling, and JavaScript for dynamic elements. The clone would replicate features such as product listings, a shopping cart, user authentication, and possibly payment processing.',
+      altMessage: '',
+      link: 'https://bibek-kumar-kushwaha.github.io/DarazWebsiteClone.github.io/',
+    },
+    {
+      id: 6,
+      title: 'Tic Tac Toe',
       imageUrl: DarazClone,
       description: 'This project is a clone of Daraz, an online marketplace. It likely involves HTML for the structure, CSS for styling, and JavaScript for dynamic elements. The clone would replicate features such as product listings, a shopping cart, user authentication, and possibly payment processing.',
       altMessage: '',

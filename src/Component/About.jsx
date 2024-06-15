@@ -22,10 +22,10 @@ const aboutData = [
     export default function About() {
       return (
         <>
-    <div className="bg-[#F8FAE5] text-center md:h-screen">
+    <div className="bg-[#FEC7D7] text-center md:h-screen">
       <div className="w-[90%] m-auto py-10 font-bold">
         <div className="mb-8">
-          <p className="text-[#ca0a0a] text-lg">
+          <p className="text-[#8546EF] text-lg">
             I Am <span className="text-[20px]">Bibek Kumar Kushwaha</span> from <span className="text-[20px]">Godaita-05 (Municipality), Sarlahi</span>
           </p>
           <p className="text-[#333]">
@@ -37,7 +37,7 @@ const aboutData = [
           <Card data={aboutData} />
         </div>
 
-        <div className="mt-8 text-[#00ff] text-[20px]">
+        <div className="mt-8 text-[#8546EF] text-[20px]">
           <p>
             Thank you for visiting my portfolio! I'm excited about the possibilities in the world of web development and look forward to contributing to innovative projects.
           </p>

@@ -40,9 +40,9 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-[#43766C] sticky top-0 ">
+      <nav className="bg-[#8546EF] sticky top-0 ">
         <div className="flex justify-between items-center m-auto w-[90%] h-12">
-          <div className="w-[30%] font-bold text-2xl text-[#F8FAE5]">
+          <div className="w-[30%] font-bold text-2xl text-[#FFF]">
             BIBEK
           </div>
 
@@ -60,7 +60,7 @@ function Navbar() {
             />
           )}
 
-          <div className={` ${toggle ? 'block' : 'hidden'} fixed md:static md:block top-[48px] bg-slate-800 md:bg-[#43766C] h-1/2 w-[100%] left-0`}>
+          <div className={` ${toggle ? 'block' : 'hidden'} fixed md:static md:block top-[48px] bg-slate-800 md:bg-[#8546EF] h-1/2 w-[100%] left-0`}>
             <ul className="md:flex justify-evenly font-bold text-xl text-[#ffffff] text-center w-[80%] m-auto">
               {renderNavLinks()}
             </ul>
