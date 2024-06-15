@@ -33,7 +33,8 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:3000/contact',
+        // 'http://localhost:3000/contact',
+        '',
         { name, email, message }, // Pass formData directly without wrapping it
         { headers: { 'Content-Type': 'application/json' } }
       );
