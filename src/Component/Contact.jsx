@@ -32,7 +32,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        'https://portfolioapi-sigma.vercel.app/contact',
+        'https://portfolioapi-pi.vercel.app/contact',
         { name, email, message }, // Pass formData directly without wrapping it
         { headers: { 'Content-Type': 'application/json' } }
       );
