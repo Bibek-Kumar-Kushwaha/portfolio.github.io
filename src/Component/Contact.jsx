@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-import Button from './Button';
 import { iconList } from './IconListData';
 
 const Icon = () => {
@@ -33,7 +32,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:3000/contact',
+        'https://portfolioapi-sigma.vercel.app/contact',
         { name, email, message }, // Pass formData directly without wrapping it
         { headers: { 'Content-Type': 'application/json' } }
       );
@@ -99,7 +98,7 @@ const Contact = () => {
 
           <div className="button">
           <button  type="submit"  className="text-[15px] md:text-[20px] bg-[#8546ef] hover:bg-[#8546d0] text-white font-bold rounded w-full p-2" >
-            LOGIN
+            SUBMIT
           </button>      
           </div>
           <Toaster />
