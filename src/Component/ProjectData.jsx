@@ -3,6 +3,7 @@ import ageCalculator from '../assets/Age_calculator.png';
 import Grade from '../assets/Grading_system.png';
 import GuessNumber from '../assets/Guess_Number.png';
 import DarazClone from '../assets/Daraz_clone.png';
+import TicToe from '../assets/TicToe.png';
 export const projectData = [
     {
       id: 1,
@@ -47,9 +48,9 @@ export const projectData = [
     {
       id: 6,
       title: 'Tic Tac Toe',
-      imageUrl: DarazClone,
-      description: 'This project is a clone of Daraz, an online marketplace. It likely involves HTML for the structure, CSS for styling, and JavaScript for dynamic elements. The clone would replicate features such as product listings, a shopping cart, user authentication, and possibly payment processing.',
+      imageUrl: TicToe,
+      description: 'This project is a web-based version of Tic Tac Toe, implemented using HTML, CSS, and JavaScript. Players take turns marking spaces on a 3x3 grid to align three symbols (X or O) in a row. It offers a simple yet engaging gameplay experience.',
       altMessage: '',
-      link: 'https://bibek-kumar-kushwaha.github.io/DarazWebsiteClone.github.io/',
+      link: 'https://bibek-kumar-kushwaha.github.io/TicTacToe.github.io/',
     },
   ]

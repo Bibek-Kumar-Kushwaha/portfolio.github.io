@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
-import menImage from '../assets/BibekPort5.png';
+import menImage from '../assets/BibekPort4.png';
 import resume from '../assets/resume.pdf';
 import Button from './Button';
 
