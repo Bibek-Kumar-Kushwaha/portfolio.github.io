@@ -10,7 +10,7 @@ export const projectData = [
       imageUrl: Grade,
       description: 'This project implements a grading system specifically tailored for Class 11 and 12 students in Nepal. It likely includes HTML for the interface, CSS for styling, and JavaScript for the grading logic. Users can input their marks, and the system determines and displays their corresponding grade based on the predefined grading criteria.',
       altMessage: 'Grading System',
-      link: 'https://bibekkumarkushwaha.com.np/gradesystem.html',
+      link: 'https://bibek-kumar-kushwaha.github.io/grading.github.io/',
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export const projectData = [
       imageUrl: GuessNumber,
       description: 'The Guess the Number Game is an interactive project where users try to guess a randomly generated number within a certain range. It uses HTML for the structure, CSS for styling, and JavaScript to manage the game logic. The user inputs their guess, and the game provides feedback, indicating whether the guess is too high, too low, or correct. The game continues until the user successfully guesses the number.',
       altMessage: 'Guess Number',
-      link: 'https://bibekkumarkushwaha.com.np/guessindex.html',
+      link: 'https://bibek-kumar-kushwaha.github.io/guessnumber.github.io/',
     },   
     {
       id: 3,
