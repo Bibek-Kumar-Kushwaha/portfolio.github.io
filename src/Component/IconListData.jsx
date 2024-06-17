@@ -19,7 +19,7 @@ export const iconList = [
       name: 'WhatsApp',
       className: 'text-[30px] md:text-[50px] text-green-600',
       icon: <FaWhatsappSquare />,
-      link: 'https://api.whatsapp.com/qr/2XC64T5AXEFEJ1?autoload=1&app_absent=0',
+      link: 'https://wa.me/9864067038',
     },
     {
       name: 'LinkedIn',
